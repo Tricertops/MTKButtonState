@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B2E715917212D0C00C24981 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B2E715817212D0C00C24981 /* Foundation.framework */; };
+		5B2E715E17212D0C00C24981 /* MTKButtonState.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5B2E715D17212D0C00C24981 /* MTKButtonState.h */; };
+		5B2E716017212D0C00C24981 /* MTKButtonState.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B2E715F17212D0C00C24981 /* MTKButtonState.m */; };
+		5B2E716817212D0D00C24981 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B2E716717212D0D00C24981 /* SenTestingKit.framework */; };
+		5B2E716A17212D0D00C24981 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B2E716917212D0D00C24981 /* UIKit.framework */; };
+		5B2E716B17212D0D00C24981 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B2E715817212D0C00C24981 /* Foundation.framework */; };
+		5B2E716E17212D0D00C24981 /* libMTKButtonState.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B2E715517212D0C00C24981 /* libMTKButtonState.a */; };
+		5B2E717417212D0D00C24981 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5B2E717217212D0D00C24981 /* InfoPlist.strings */; };
+		5B2E717717212D0D00C24981 /* MTKButtonStateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B2E717617212D0D00C24981 /* MTKButtonStateTests.m */; };
+		5B2E718517212D6300C24981 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B2E716917212D0D00C24981 /* UIKit.framework */; };
+		5B2E718617212D6300C24981 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B2E715817212D0C00C24981 /* Foundation.framework */; };
+		5B2E718817212D6300C24981 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B2E718717212D6300C24981 /* CoreGraphics.framework */; };
+		5B2E718E17212D6300C24981 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5B2E718C17212D6300C24981 /* InfoPlist.strings */; };
+		5B2E719017212D6300C24981 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B2E718F17212D6300C24981 /* main.m */; };
+		5B2E719417212D6300C24981 /* MTKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B2E719317212D6300C24981 /* MTKAppDelegate.m */; };
+		5B2E719617212D6300C24981 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B2E719517212D6300C24981 /* Default.png */; };
+		5B2E719817212D6300C24981 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B2E719717212D6300C24981 /* Default@2x.png */; };
+		5B2E719A17212D6300C24981 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B2E719917212D6300C24981 /* Default-568h@2x.png */; };
+		5B2E71A017212DAB00C24981 /* UIButton+MTKButtonState.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B2E719F17212DAB00C24981 /* UIButton+MTKButtonState.m */; };
+		5B2E71A317213CD800C24981 /* libMTKButtonState.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B2E715517212D0C00C24981 /* libMTKButtonState.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5B2E716C17212D0D00C24981 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B2E714D17212D0C00C24981 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B2E715417212D0C00C24981;
+			remoteInfo = MTKButtonState;
+		};
+		5B2E71A117213CD400C24981 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B2E714D17212D0C00C24981 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B2E715417212D0C00C24981;
+			remoteInfo = MTKButtonState;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5B2E715317212D0C00C24981 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+				5B2E715E17212D0C00C24981 /* MTKButtonState.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5B2E715517212D0C00C24981 /* libMTKButtonState.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMTKButtonState.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B2E715817212D0C00C24981 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5B2E715D17212D0C00C24981 /* MTKButtonState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTKButtonState.h; sourceTree = "<group>"; };
+		5B2E715F17212D0C00C24981 /* MTKButtonState.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTKButtonState.m; sourceTree = "<group>"; };
+		5B2E716617212D0D00C24981 /* MTKButtonStateTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MTKButtonStateTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B2E716717212D0D00C24981 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		5B2E716917212D0D00C24981 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		5B2E717117212D0D00C24981 /* MTKButtonStateTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MTKButtonStateTests-Info.plist"; sourceTree = "<group>"; };
+		5B2E717317212D0D00C24981 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5B2E717517212D0D00C24981 /* MTKButtonStateTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTKButtonStateTests.h; sourceTree = "<group>"; };
+		5B2E717617212D0D00C24981 /* MTKButtonStateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTKButtonStateTests.m; sourceTree = "<group>"; };
+		5B2E718417212D6300C24981 /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B2E718717212D6300C24981 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5B2E718B17212D6300C24981 /* Example-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Example-Info.plist"; sourceTree = "<group>"; };
+		5B2E718D17212D6300C24981 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5B2E718F17212D6300C24981 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5B2E719117212D6300C24981 /* Example-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Example-Prefix.pch"; sourceTree = "<group>"; };
+		5B2E719217212D6300C24981 /* MTKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTKAppDelegate.h; sourceTree = "<group>"; };
+		5B2E719317212D6300C24981 /* MTKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTKAppDelegate.m; sourceTree = "<group>"; };
+		5B2E719517212D6300C24981 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		5B2E719717212D6300C24981 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		5B2E719917212D6300C24981 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		5B2E719E17212DAB00C24981 /* UIButton+MTKButtonState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+MTKButtonState.h"; sourceTree = "<group>"; };
+		5B2E719F17212DAB00C24981 /* UIButton+MTKButtonState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+MTKButtonState.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B2E715217212D0C00C24981 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B2E715917212D0C00C24981 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B2E716217212D0D00C24981 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B2E716817212D0D00C24981 /* SenTestingKit.framework in Frameworks */,
+				5B2E716A17212D0D00C24981 /* UIKit.framework in Frameworks */,
+				5B2E716B17212D0D00C24981 /* Foundation.framework in Frameworks */,
+				5B2E716E17212D0D00C24981 /* libMTKButtonState.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B2E718117212D6300C24981 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B2E71A317213CD800C24981 /* libMTKButtonState.a in Frameworks */,
+				5B2E718517212D6300C24981 /* UIKit.framework in Frameworks */,
+				5B2E718617212D6300C24981 /* Foundation.framework in Frameworks */,
+				5B2E718817212D6300C24981 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B2E714C17212D0C00C24981 = {
+			isa = PBXGroup;
+			children = (
+				5B2E715A17212D0C00C24981 /* MTKButtonState */,
+				5B2E716F17212D0D00C24981 /* MTKButtonStateTests */,
+				5B2E718917212D6300C24981 /* Example */,
+				5B2E715717212D0C00C24981 /* Frameworks */,
+				5B2E715617212D0C00C24981 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5B2E715617212D0C00C24981 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B2E715517212D0C00C24981 /* libMTKButtonState.a */,
+				5B2E716617212D0D00C24981 /* MTKButtonStateTests.octest */,
+				5B2E718417212D6300C24981 /* Example.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B2E715717212D0C00C24981 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5B2E715817212D0C00C24981 /* Foundation.framework */,
+				5B2E716717212D0D00C24981 /* SenTestingKit.framework */,
+				5B2E716917212D0D00C24981 /* UIKit.framework */,
+				5B2E718717212D6300C24981 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5B2E715A17212D0C00C24981 /* MTKButtonState */ = {
+			isa = PBXGroup;
+			children = (
+				5B2E715D17212D0C00C24981 /* MTKButtonState.h */,
+				5B2E715F17212D0C00C24981 /* MTKButtonState.m */,
+				5B2E719E17212DAB00C24981 /* UIButton+MTKButtonState.h */,
+				5B2E719F17212DAB00C24981 /* UIButton+MTKButtonState.m */,
+			);
+			path = MTKButtonState;
+			sourceTree = "<group>";
+		};
+		5B2E716F17212D0D00C24981 /* MTKButtonStateTests */ = {
+			isa = PBXGroup;
+			children = (
+				5B2E717517212D0D00C24981 /* MTKButtonStateTests.h */,
+				5B2E717617212D0D00C24981 /* MTKButtonStateTests.m */,
+				5B2E717017212D0D00C24981 /* Supporting Files */,
+			);
+			path = MTKButtonStateTests;
+			sourceTree = "<group>";
+		};
+		5B2E717017212D0D00C24981 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5B2E717117212D0D00C24981 /* MTKButtonStateTests-Info.plist */,
+				5B2E717217212D0D00C24981 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5B2E718917212D6300C24981 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				5B2E719217212D6300C24981 /* MTKAppDelegate.h */,
+				5B2E719317212D6300C24981 /* MTKAppDelegate.m */,
+				5B2E718A17212D6300C24981 /* Supporting Files */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+		5B2E718A17212D6300C24981 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5B2E718B17212D6300C24981 /* Example-Info.plist */,
+				5B2E718C17212D6300C24981 /* InfoPlist.strings */,
+				5B2E718F17212D6300C24981 /* main.m */,
+				5B2E719117212D6300C24981 /* Example-Prefix.pch */,
+				5B2E719517212D6300C24981 /* Default.png */,
+				5B2E719717212D6300C24981 /* Default@2x.png */,
+				5B2E719917212D6300C24981 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5B2E715417212D0C00C24981 /* MTKButtonState */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B2E717A17212D0D00C24981 /* Build configuration list for PBXNativeTarget "MTKButtonState" */;
+			buildPhases = (
+				5B2E715117212D0C00C24981 /* Sources */,
+				5B2E715217212D0C00C24981 /* Frameworks */,
+				5B2E715317212D0C00C24981 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MTKButtonState;
+			productName = MTKButtonState;
+			productReference = 5B2E715517212D0C00C24981 /* libMTKButtonState.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		5B2E716517212D0D00C24981 /* MTKButtonStateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B2E717D17212D0D00C24981 /* Build configuration list for PBXNativeTarget "MTKButtonStateTests" */;
+			buildPhases = (
+				5B2E716117212D0D00C24981 /* Sources */,
+				5B2E716217212D0D00C24981 /* Frameworks */,
+				5B2E716317212D0D00C24981 /* Resources */,
+				5B2E716417212D0D00C24981 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B2E716D17212D0D00C24981 /* PBXTargetDependency */,
+			);
+			name = MTKButtonStateTests;
+			productName = MTKButtonStateTests;
+			productReference = 5B2E716617212D0D00C24981 /* MTKButtonStateTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+		5B2E718317212D6300C24981 /* Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B2E719B17212D6300C24981 /* Build configuration list for PBXNativeTarget "Example" */;
+			buildPhases = (
+				5B2E718017212D6300C24981 /* Sources */,
+				5B2E718117212D6300C24981 /* Frameworks */,
+				5B2E718217212D6300C24981 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B2E71A217213CD400C24981 /* PBXTargetDependency */,
+			);
+			name = Example;
+			productName = Example;
+			productReference = 5B2E718417212D6300C24981 /* Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5B2E714D17212D0C00C24981 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "iMartin Kiss";
+			};
+			buildConfigurationList = 5B2E715017212D0C00C24981 /* Build configuration list for PBXProject "MTKButtonState" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5B2E714C17212D0C00C24981;
+			productRefGroup = 5B2E715617212D0C00C24981 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B2E715417212D0C00C24981 /* MTKButtonState */,
+				5B2E716517212D0D00C24981 /* MTKButtonStateTests */,
+				5B2E718317212D6300C24981 /* Example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B2E716317212D0D00C24981 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B2E717417212D0D00C24981 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B2E718217212D6300C24981 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B2E718E17212D6300C24981 /* InfoPlist.strings in Resources */,
+				5B2E719617212D6300C24981 /* Default.png in Resources */,
+				5B2E719817212D6300C24981 /* Default@2x.png in Resources */,
+				5B2E719A17212D6300C24981 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5B2E716417212D0D00C24981 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B2E715117212D0C00C24981 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B2E716017212D0C00C24981 /* MTKButtonState.m in Sources */,
+				5B2E71A017212DAB00C24981 /* UIButton+MTKButtonState.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B2E716117212D0D00C24981 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B2E717717212D0D00C24981 /* MTKButtonStateTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B2E718017212D6300C24981 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B2E719017212D6300C24981 /* main.m in Sources */,
+				5B2E719417212D6300C24981 /* MTKAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5B2E716D17212D0D00C24981 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B2E715417212D0C00C24981 /* MTKButtonState */;
+			targetProxy = 5B2E716C17212D0D00C24981 /* PBXContainerItemProxy */;
+		};
+		5B2E71A217213CD400C24981 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B2E715417212D0C00C24981 /* MTKButtonState */;
+			targetProxy = 5B2E71A117213CD400C24981 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5B2E717217212D0D00C24981 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B2E717317212D0D00C24981 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5B2E718C17212D6300C24981 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B2E718D17212D6300C24981 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5B2E717817212D0D00C24981 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5B2E717917212D0D00C24981 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5B2E717B17212D0D00C24981 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/MTKButtonState.dst;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		5B2E717C17212D0D00C24981 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/MTKButtonState.dst;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		5B2E717E17212D0D00C24981 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MTKButtonState/MTKButtonState-Prefix.pch";
+				INFOPLIST_FILE = "MTKButtonStateTests/MTKButtonStateTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		5B2E717F17212D0D00C24981 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MTKButtonState/MTKButtonState-Prefix.pch";
+				INFOPLIST_FILE = "MTKButtonStateTests/MTKButtonStateTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+		5B2E719C17212D6300C24981 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Example/Example-Prefix.pch";
+				INFOPLIST_FILE = "Example/Example-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5B2E719D17212D6300C24981 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Example/Example-Prefix.pch";
+				INFOPLIST_FILE = "Example/Example-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5B2E715017212D0C00C24981 /* Build configuration list for PBXProject "MTKButtonState" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B2E717817212D0D00C24981 /* Debug */,
+				5B2E717917212D0D00C24981 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B2E717A17212D0D00C24981 /* Build configuration list for PBXNativeTarget "MTKButtonState" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B2E717B17212D0D00C24981 /* Debug */,
+				5B2E717C17212D0D00C24981 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5B2E717D17212D0D00C24981 /* Build configuration list for PBXNativeTarget "MTKButtonStateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B2E717E17212D0D00C24981 /* Debug */,
+				5B2E717F17212D0D00C24981 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5B2E719B17212D6300C24981 /* Build configuration list for PBXNativeTarget "Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B2E719C17212D6300C24981 /* Debug */,
+				5B2E719D17212D6300C24981 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5B2E714D17212D0C00C24981 /* Project object */;
+}
