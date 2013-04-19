@@ -15,4 +15,14 @@
 
 @interface UIButton (MTKButtonState)
 
+
+- (MTKButtonState *)stateForControlState:(UIControlState)controlState;
+
+@property (nonatomic, readonly) MTKButtonState *normalState;
+@property (nonatomic, readonly) MTKButtonState *disabledState;
+@property (nonatomic, readonly) MTKButtonState *highlightedState;
+@property (nonatomic, readonly) MTKButtonState *selectedState;
+@property (nonatomic, readonly) MTKButtonState *selectedHighlightedState;
+
+
 @end
