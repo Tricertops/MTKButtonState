@@ -27,6 +27,7 @@
 		5B2E719A17212D6300C24981 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B2E719917212D6300C24981 /* Default-568h@2x.png */; };
 		5B2E71A017212DAB00C24981 /* UIButton+MTKButtonState.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B2E719F17212DAB00C24981 /* UIButton+MTKButtonState.m */; };
 		5B2E71A317213CD800C24981 /* libMTKButtonState.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B2E715517212D0C00C24981 /* libMTKButtonState.a */; };
+		5B607141172525FD00F8F5CA /* MTKTestObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B607140172525FD00F8F5CA /* MTKTestObserver.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,6 +85,8 @@
 		5B2E719917212D6300C24981 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		5B2E719E17212DAB00C24981 /* UIButton+MTKButtonState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+MTKButtonState.h"; sourceTree = "<group>"; };
 		5B2E719F17212DAB00C24981 /* UIButton+MTKButtonState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+MTKButtonState.m"; sourceTree = "<group>"; };
+		5B60713F172525FD00F8F5CA /* MTKTestObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTKTestObserver.h; sourceTree = "<group>"; };
+		5B607140172525FD00F8F5CA /* MTKTestObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTKTestObserver.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,6 +171,8 @@
 			children = (
 				5B2E717517212D0D00C24981 /* MTKButtonStateTests.h */,
 				5B2E717617212D0D00C24981 /* MTKButtonStateTests.m */,
+				5B60713F172525FD00F8F5CA /* MTKTestObserver.h */,
+				5B607140172525FD00F8F5CA /* MTKTestObserver.m */,
 				5B2E717017212D0D00C24981 /* Supporting Files */,
 			);
 			path = MTKButtonStateTests;
@@ -344,6 +349,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B2E717717212D0D00C24981 /* MTKButtonStateTests.m in Sources */,
+				5B607141172525FD00F8F5CA /* MTKTestObserver.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -471,9 +477,11 @@
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
 				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "MTKButtonState/MTKButtonState-Prefix.pch";
 				INFOPLIST_FILE = "MTKButtonStateTests/MTKButtonStateTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = octest;
 			};
@@ -486,9 +494,11 @@
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
 				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "MTKButtonState/MTKButtonState-Prefix.pch";
 				INFOPLIST_FILE = "MTKButtonStateTests/MTKButtonStateTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = octest;
 			};
@@ -556,6 +566,7 @@
 				5B2E717C17212D0D00C24981 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5B2E717D17212D0D00C24981 /* Build configuration list for PBXNativeTarget "MTKButtonStateTests" */ = {
 			isa = XCConfigurationList;
@@ -564,6 +575,7 @@
 				5B2E717F17212D0D00C24981 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5B2E719B17212D6300C24981 /* Build configuration list for PBXNativeTarget "Example" */ = {
 			isa = XCConfigurationList;
@@ -572,6 +584,7 @@
 				5B2E719D17212D6300C24981 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
