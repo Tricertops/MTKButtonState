@@ -58,12 +58,6 @@
 }
 
 
-+ (NSSet *)keyPathsForValuesAffectingTitle {
-    MTKButtonState *state; // because of @keypath
-    return [NSSet setWithObjects:@keypath(state, controlState), @keypath(state, button.state), nil];
-}
-
-
 
 #pragma mark Attributed Title
 
@@ -74,12 +68,6 @@
 
 - (void)setAttributedTitle:(NSAttributedString *)attributedTitle {
     [self.button setAttributedTitle:attributedTitle forState:self.controlState];
-}
-
-
-+ (NSSet *)keyPathsForValuesAffectingAttributedTitle {
-    MTKButtonState *state; // because of @keypath
-    return [NSSet setWithObjects:@keypath(state, controlState), @keypath(state, button.state), nil];
 }
 
 
@@ -97,12 +85,6 @@
 }
 
 
-+ (NSSet *)keyPathsForValuesAffectingTitleColor {
-    MTKButtonState *state; // because of @keypath
-    return [NSSet setWithObjects:@keypath(state, controlState), @keypath(state, button.state), nil];
-}
-
-
 
 #pragma mark Title Shadow Color
 
@@ -114,12 +96,6 @@
 
 - (void)setTitleShadowColor:(UIColor *)titleShadowColor {
     [self.button setTitleShadowColor:titleShadowColor forState:self.controlState];
-}
-
-
-+ (NSSet *)keyPathsForValuesAffectingTitleShadowColor {
-    MTKButtonState *state; // because of @keypath
-    return [NSSet setWithObjects:@keypath(state, controlState), @keypath(state, button.state), nil];
 }
 
 
@@ -137,12 +113,6 @@
 }
 
 
-+ (NSSet *)keyPathsForValuesAffectingImage {
-    MTKButtonState *state; // because of @keypath
-    return [NSSet setWithObjects:@keypath(state, controlState), @keypath(state, button.state), nil];
-}
-
-
 
 #pragma mark Background Image
 
@@ -154,12 +124,6 @@
 
 - (void)setBackgroundImage:(UIImage *)backgroundImage {
     [self.button setBackgroundImage:backgroundImage forState:self.controlState];
-}
-
-
-+ (NSSet *)keyPathsForValuesAffectingBackgroundImage {
-    MTKButtonState *state; // because of @keypath
-    return [NSSet setWithObjects:@keypath(state, controlState), @keypath(state, button.state), nil];
 }
 
 
