@@ -60,7 +60,7 @@
 
 + (NSSet *)keyPathsForValuesAffectingTitle {
     MTKButtonState *state; // because of @keypath
-    return [NSSet setWithObjects:@keypath(state, button), @keypath(state, controlState), @keypath(state, button.state), nil];
+    return [NSSet setWithObjects:@keypath(state, controlState), @keypath(state, button.state), nil];
 }
 
 
@@ -79,7 +79,7 @@
 
 + (NSSet *)keyPathsForValuesAffectingAttributedTitle {
     MTKButtonState *state; // because of @keypath
-    return [NSSet setWithObjects:@keypath(state, button), @keypath(state, controlState), @keypath(state, button.state), nil];
+    return [NSSet setWithObjects:@keypath(state, controlState), @keypath(state, button.state), nil];
 }
 
 
@@ -99,7 +99,7 @@
 
 + (NSSet *)keyPathsForValuesAffectingTitleColor {
     MTKButtonState *state; // because of @keypath
-    return [NSSet setWithObjects:@keypath(state, button), @keypath(state, controlState), @keypath(state, button.state), nil];
+    return [NSSet setWithObjects:@keypath(state, controlState), @keypath(state, button.state), nil];
 }
 
 
@@ -119,7 +119,7 @@
 
 + (NSSet *)keyPathsForValuesAffectingTitleShadowColor {
     MTKButtonState *state; // because of @keypath
-    return [NSSet setWithObjects:@keypath(state, button), @keypath(state, controlState), @keypath(state, button.state), nil];
+    return [NSSet setWithObjects:@keypath(state, controlState), @keypath(state, button.state), nil];
 }
 
 
@@ -139,7 +139,7 @@
 
 + (NSSet *)keyPathsForValuesAffectingImage {
     MTKButtonState *state; // because of @keypath
-    return [NSSet setWithObjects:@keypath(state, button), @keypath(state, controlState), @keypath(state, button.state), nil];
+    return [NSSet setWithObjects:@keypath(state, controlState), @keypath(state, button.state), nil];
 }
 
 
@@ -159,7 +159,17 @@
 
 + (NSSet *)keyPathsForValuesAffectingBackgroundImage {
     MTKButtonState *state; // because of @keypath
-    return [NSSet setWithObjects:@keypath(state, button), @keypath(state, controlState), @keypath(state, button.state), nil];
+    return [NSSet setWithObjects:@keypath(state, controlState), @keypath(state, button.state), nil];
+}
+
+
+
+
+
+@end
+
+
+
 }
 
 
