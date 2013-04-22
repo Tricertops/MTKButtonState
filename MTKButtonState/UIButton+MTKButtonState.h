@@ -28,7 +28,7 @@
 /// You can use this to access any other non-standard button states.
 - (MTKButtonState *)stateForControlState:(UIControlState)controlState;
 
-/// Properties of this MTKButtonState object are kept up to date with current properties of this button.
+/// This MTKButtonState object is always one of the above state objects. It is KVO compliant.
 @property (nonatomic, readonly) MTKButtonState *currentState;
 
 

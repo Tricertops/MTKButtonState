@@ -38,12 +38,3 @@
 @end
 
 
-
-/// Private class, but if you really want, it is safe to use directly. See UIButton+MTKButtonState.h instead.
-/// Special subclass that access current button's properties at any time, including controlState.
-@interface MTKButtonCurrentState : MTKButtonState
-
-/// You should not create instances of this class, use -[UIButton currentState] instead.
-- (id)initWithButton:(UIButton *)button;
-
-@end

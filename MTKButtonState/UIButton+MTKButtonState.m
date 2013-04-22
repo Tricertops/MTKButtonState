@@ -70,27 +70,22 @@
 }
 
 
-- (MTKButtonState *)MTK_currentState {
-    MTKButtonCurrentState *currentState = objc_getAssociatedObject(self, _cmd);
-    
-    if ( ! currentState) {
-        currentState = [[MTKButtonCurrentState alloc] initWithButton:self];
-        objc_setAssociatedObject(self, _cmd, currentState, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
-    }
-    
-    return currentState;
-}
+
+
+
+#pragma mark Current State
 
 
 - (MTKButtonState *)currentState {
-    return [self MTK_currentState];
+    return [self stateForControlState:self.state];
 }
 
 
 + (NSSet *)keyPathsForValuesAffectingCurrentState {
-    return [NSSet setWithObjects:@keypath(UIButton.new, state), nil];
+    // It seem like -[UIControl state] is not observable directly, so we have to observe all supplementary properties.
+    UIButton *button;
+    return [NSSet setWithObjects:@keypath(button, state), @keypath(button, selected), @keypath(button, highlighted), @keypath(button, enabled), nil];
 }
-
 
 
 
