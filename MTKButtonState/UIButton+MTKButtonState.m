@@ -70,6 +70,29 @@
 }
 
 
+- (MTKButtonState *)MTK_currentState {
+    MTKButtonCurrentState *currentState = objc_getAssociatedObject(self, _cmd);
+    
+    if ( ! currentState) {
+        currentState = [[MTKButtonCurrentState alloc] initWithButton:self];
+        objc_setAssociatedObject(self, _cmd, currentState, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
+    }
+    
+    return currentState;
+}
+
+
+- (MTKButtonState *)currentState {
+    return [self MTK_currentState];
+}
+
+
++ (NSSet *)keyPathsForValuesAffectingCurrentState {
+    return [NSSet setWithObjects:@keypath(UIButton.new, state), nil];
+}
+
+
+
 
 
 
