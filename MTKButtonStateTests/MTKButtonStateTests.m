@@ -6,10 +6,20 @@
 //  Copyright (c) 2013 iMartin Kiss. All rights reserved.
 //
 
-#import "MTKButtonStateTests.h"
-#import "UIButton+MTKButtonState.h"
 
+
+#import <XCTest/XCTest.h>
+#import <UIKit/UIKit.h>
+#import "UIButton+MTKButtonState.h"
 #import "MTKTestObserver.h"
+
+
+
+
+
+@interface MTKButtonStateTests : SenTestCase
+
+@end
 
 
 
@@ -27,7 +37,7 @@
     MTKButtonState *state1 = [button stateForControlState:UIControlStateHighlighted];
     MTKButtonState *state2 = [button stateForControlState:UIControlStateHighlighted];
     
-    STAssertEqualObjects(state1, state2, @"Multiple button state accesses must return the same object");
+    XCTAssertEqualObjects(state1, state2, @"Multiple button state accesses must return the same object");
 }
 
 
@@ -36,10 +46,10 @@
     UIButton *button = [[UIButton alloc] init];
     
     [button setTitle:@"test" forState:UIControlStateHighlighted];
-    STAssertEqualObjects(button.highlightedState.title, @"test", @"Setting properties using standard method must immediatelly reflect in state object");
+    XCTAssertEqualObjects(button.highlightedState.title, @"test", @"Setting properties using standard method must immediatelly reflect in state object");
     
     button.highlightedState.titleColor = [UIColor yellowColor];
-    STAssertEqualObjects([button titleColorForState:UIControlStateHighlighted], [UIColor yellowColor], @"Setting properties using state objects must immediatelly reflect in standard access method");
+    XCTAssertEqualObjects([button titleColorForState:UIControlStateHighlighted], [UIColor yellowColor], @"Setting properties using state objects must immediatelly reflect in standard access method");
 }
 
 
@@ -51,8 +61,8 @@
     button.highlightedState.titleColor = [UIColor yellowColor];
     button.highlighted = YES;
     
-    STAssertEqualObjects(button.currentState.title, @"test", @"Current state object must return current values");
-    STAssertEqualObjects(button.currentState.titleColor, [UIColor yellowColor], @"Current state object must return current values");
+    XCTAssertEqualObjects(button.currentState.title, @"test", @"Current state object must return current values");
+    XCTAssertEqualObjects(button.currentState.titleColor, [UIColor yellowColor], @"Current state object must return current values");
 }
 
 
@@ -68,11 +78,11 @@
     };
     
     [button addObserver:observer forKeyPath:@keypath(button, currentState) options:NSKeyValueObservingOptionInitial context:nil];
-    STAssertEqualObjects(observedState, button.normalState, @"Current state must initially be normal state");
+    XCTAssertEqualObjects(observedState, button.normalState, @"Current state must initially be normal state");
     observedState = nil;
     
     button.highlighted = YES;
-    STAssertEqualObjects(observedState, button.highlightedState, @"Current state must be equal to hightlighted state if the button is highlighted");
+    XCTAssertEqualObjects(observedState, button.highlightedState, @"Current state must be equal to hightlighted state if the button is highlighted");
     
     [button removeObserver:observer forKeyPath:@keypath(button, currentState)];
 }

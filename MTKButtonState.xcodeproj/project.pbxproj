@@ -7,18 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5B2E715917212D0C00C24981 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B2E715817212D0C00C24981 /* Foundation.framework */; };
 		5B2E715E17212D0C00C24981 /* MTKButtonState.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5B2E715D17212D0C00C24981 /* MTKButtonState.h */; };
 		5B2E716017212D0C00C24981 /* MTKButtonState.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B2E715F17212D0C00C24981 /* MTKButtonState.m */; };
-		5B2E716817212D0D00C24981 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B2E716717212D0D00C24981 /* SenTestingKit.framework */; };
-		5B2E716A17212D0D00C24981 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B2E716917212D0D00C24981 /* UIKit.framework */; };
-		5B2E716B17212D0D00C24981 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B2E715817212D0C00C24981 /* Foundation.framework */; };
 		5B2E716E17212D0D00C24981 /* libMTKButtonState.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B2E715517212D0C00C24981 /* libMTKButtonState.a */; };
 		5B2E717417212D0D00C24981 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5B2E717217212D0D00C24981 /* InfoPlist.strings */; };
 		5B2E717717212D0D00C24981 /* MTKButtonStateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B2E717617212D0D00C24981 /* MTKButtonStateTests.m */; };
-		5B2E718517212D6300C24981 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B2E716917212D0D00C24981 /* UIKit.framework */; };
-		5B2E718617212D6300C24981 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B2E715817212D0C00C24981 /* Foundation.framework */; };
-		5B2E718817212D6300C24981 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B2E718717212D6300C24981 /* CoreGraphics.framework */; };
 		5B2E718E17212D6300C24981 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5B2E718C17212D6300C24981 /* InfoPlist.strings */; };
 		5B2E719017212D6300C24981 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B2E718F17212D6300C24981 /* main.m */; };
 		5B2E719417212D6300C24981 /* MTKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B2E719317212D6300C24981 /* MTKAppDelegate.m */; };
@@ -62,18 +55,13 @@
 
 /* Begin PBXFileReference section */
 		5B2E715517212D0C00C24981 /* libMTKButtonState.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMTKButtonState.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		5B2E715817212D0C00C24981 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5B2E715D17212D0C00C24981 /* MTKButtonState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTKButtonState.h; sourceTree = "<group>"; };
 		5B2E715F17212D0C00C24981 /* MTKButtonState.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTKButtonState.m; sourceTree = "<group>"; };
 		5B2E716617212D0D00C24981 /* MTKButtonStateTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MTKButtonStateTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5B2E716717212D0D00C24981 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		5B2E716917212D0D00C24981 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		5B2E717117212D0D00C24981 /* MTKButtonStateTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MTKButtonStateTests-Info.plist"; sourceTree = "<group>"; };
 		5B2E717317212D0D00C24981 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		5B2E717517212D0D00C24981 /* MTKButtonStateTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTKButtonStateTests.h; sourceTree = "<group>"; };
 		5B2E717617212D0D00C24981 /* MTKButtonStateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTKButtonStateTests.m; sourceTree = "<group>"; };
 		5B2E718417212D6300C24981 /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		5B2E718717212D6300C24981 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		5B2E718B17212D6300C24981 /* Example-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Example-Info.plist"; sourceTree = "<group>"; };
 		5B2E718D17212D6300C24981 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5B2E718F17212D6300C24981 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -94,7 +82,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B2E715917212D0C00C24981 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,9 +89,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B2E716817212D0D00C24981 /* SenTestingKit.framework in Frameworks */,
-				5B2E716A17212D0D00C24981 /* UIKit.framework in Frameworks */,
-				5B2E716B17212D0D00C24981 /* Foundation.framework in Frameworks */,
 				5B2E716E17212D0D00C24981 /* libMTKButtonState.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -114,9 +98,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B2E71A317213CD800C24981 /* libMTKButtonState.a in Frameworks */,
-				5B2E718517212D6300C24981 /* UIKit.framework in Frameworks */,
-				5B2E718617212D6300C24981 /* Foundation.framework in Frameworks */,
-				5B2E718817212D6300C24981 /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,7 +110,6 @@
 				5B2E715A17212D0C00C24981 /* MTKButtonState */,
 				5B2E716F17212D0D00C24981 /* MTKButtonStateTests */,
 				5B2E718917212D6300C24981 /* Example */,
-				5B2E715717212D0C00C24981 /* Frameworks */,
 				5B2E715617212D0C00C24981 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -142,17 +122,6 @@
 				5B2E718417212D6300C24981 /* Example.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		5B2E715717212D0C00C24981 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				5B2E715817212D0C00C24981 /* Foundation.framework */,
-				5B2E716717212D0D00C24981 /* SenTestingKit.framework */,
-				5B2E716917212D0D00C24981 /* UIKit.framework */,
-				5B2E718717212D6300C24981 /* CoreGraphics.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		5B2E715A17212D0C00C24981 /* MTKButtonState */ = {
@@ -169,7 +138,6 @@
 		5B2E716F17212D0D00C24981 /* MTKButtonStateTests */ = {
 			isa = PBXGroup;
 			children = (
-				5B2E717517212D0D00C24981 /* MTKButtonStateTests.h */,
 				5B2E717617212D0D00C24981 /* MTKButtonStateTests.m */,
 				5B60713F172525FD00F8F5CA /* MTKTestObserver.h */,
 				5B607140172525FD00F8F5CA /* MTKTestObserver.m */,
@@ -274,6 +242,7 @@
 		5B2E714D17212D0C00C24981 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastTestingUpgradeCheck = 0510;
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "iMartin Kiss";
 			};
